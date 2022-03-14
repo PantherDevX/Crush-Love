@@ -6,7 +6,7 @@ yesBtn.addEventListener('click',function () {
 
 const noBtn = document.querySelector('#noBtn');
 
-noBtn.addEventListener('mouseover', function () {
+noBtn.addEventListener('click', function () {
     const randomX = parseInt(Math.random()*100);
     const randomY = parseInt(Math.random()*100);
     noBtn.style.setProperty('top',randomY+'%');
